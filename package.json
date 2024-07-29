@@ -1,0 +1,26 @@
+{
+  "name": "redtree-maps-integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "RedTree",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wordpress/scripts": "^28.3.0",
+    "@wordpress/stylelint-config": "^22.3.0",
+    "css-loader": "^7.1.2",
+    "node-sass": "^7.0.3",
+    "sass": "^1.77.8",
+    "sass-loader": "^15.0.0",
+    "style-loader": "^4.0.0"
+  },
+  "dependencies": {
+    "@arcgis/core": "^4.30.8",
+    "uniqid": "^5.4.0"
+  }
+}
